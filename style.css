@@ -4,9 +4,9 @@
 @font-face {
   font-family: 'Avenir Next';
   src: local('Avenir Next Bold'), local('Avenir-Next-Bold'),
-      url('AvenirNextCyr-Bold.woff2') format('woff2'),
-      url('AvenirNextCyr-Bold.woff') format('woff'),
-      url('AvenirNextCyr-Bold.ttf') format('truetype');
+      url('font/AvenirNextCyr-Bold.woff2') format('woff2'),
+      url('font/AvenirNextCyr-Bold.woff') format('woff'),
+      url('font/AvenirNextCyr-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
@@ -45,6 +45,15 @@
 .contact-phone, .contact-email {
   padding-left: 13px;
   font-size: 13px;
+}
+
+.contact-phone {
+  margin-bottom: 5px;
+}
+
+
+.contact-email {
+  margin-top: 0px;
 }
 
 h2 {
@@ -191,7 +200,7 @@ h2 {
     position: absolute;
     content: "";
     top: 33px;
-    right: 7px;
+    right: 17px;
     width: 0;
     height: 0;
     border: 6px solid transparent;

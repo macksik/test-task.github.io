@@ -41,7 +41,7 @@
                         </div>  
 
                         <div class="custom-select" style="margin: 5px; font-size: 13px; padding-top:10px; font-weight: 800;">
-                            <select>
+                            <select class="select">
                             <option value="0" style="opacity: 0.5;">Medical Profession*</option>
                             <option value="1">Option 1</option>
                             <option value="2">Option 2</option>
@@ -101,8 +101,8 @@
                 '<div id="bodyContent" class="bodyContent">' +
                     '<p id="firstHeading" class="firstHeading">Voodoo</p>' +
                     '<p class="text-content">137 Glasgow St., Unit 115 <br> Kitchener, ON N2G 4X8 <br> Ukraine </p>' +
-                    '<p class="contact-phone" style="color: #858585"> <img src="phone.png" /> 1-800-480-9597 </p>'+
-                    '<p class="contact-email" style="color: #858585;"> <img src="email.png" /> info@voodoo.com </p>'+                    
+                    '<p class="contact-phone" style="color: #858585"> <img src="img/phone.png" /> 1-800-480-9597 </p>'+
+                    '<p class="contact-email" style="color: #858585;"> <img src="img/email.png" /> info@voodoo.com </p>'+                    
                 "</div>" +
             "</div>";
         const infowindow = new google.maps.InfoWindow({
@@ -116,7 +116,7 @@
             position: myLatLng,
             map,
             title: "VooDoo",
-            icon: 'point.png',
+            icon: 'img/point.png',
         });
 
       
