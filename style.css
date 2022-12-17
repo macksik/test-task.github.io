@@ -11,6 +11,34 @@
   font-style: normal;
 }
 
+.backgroung-elemts-elepse-top-left {
+  position: fixed;
+  width: 851px;
+  height: 788px;
+  left: -370px;
+  top: -324px;
+  z-index: 0;
+  
+  background: linear-gradient(90deg, #B79891 0%, #94716B 100%);
+  opacity: 0.2;
+  filter: blur(250px);
+}
+
+.backgroung-elemts-elepse-bottom-right {
+  position: fixed;
+  width: 939px;
+  height: 718px;
+  left: 749px;
+  top: 1390px;
+  z-index: 0;
+  
+  background: linear-gradient(90deg, #B79891 0%, #94716B 100%);
+  opacity: 0.2;
+  filter: blur(250px);
+}
+
+
+
 * {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -141,22 +169,24 @@ h2 {
 
 .form-type {
   background: #FFFFFF;
-  box-shadow: 0px 8px 16px rgba(202, 203, 210, 0.70);
+  box-shadow: 0px 8px 16px rgba(202, 203, 210, 0.90);
   border-radius: 8px;   
   margin: 5px;
   margin-top: 15px;
   border-color: #fff;
   border-style: none;
+  z-index: 99;
 }
 
 .form-type-enter {
   background: #FFFFFF;
-  box-shadow: 0px 8px 16px rgba(202, 203, 210, 0.70);
+  box-shadow: 0px 8px 16px rgba(202, 203, 210, 0.90);
   border-radius: 8px;   
   margin: 5px;
   border-color: #fff;
   border-style: none;
   height: 250px;
+  z-index: 99;
  
 }
 
@@ -275,6 +305,19 @@ h2 {
 
 
 @media only screen and (max-width: 800px) {
+  .backgroung-elemts-elepse-bottoms-left-mobile {
+    position: fixed;
+    width: 851px;
+    height: 788px;
+    left: -370px;
+    top: 961px;
+    z-index: 99;
+    
+    background: linear-gradient(90deg, #6F8488 0%, #6F8488 100%);
+    opacity: 0.2;
+    filter: blur(250px);
+  }
+  
   .form {
     display: grid;
   }
