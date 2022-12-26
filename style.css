@@ -340,6 +340,24 @@ button.gm-ui-hover-effect {
     grid-auto-rows: 80px;
   
   }
+
+  .bodyContent {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 19px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+  
+    position: relative ;
+    width: 180px;
+    height: 130px;
+    left: 0px;
+    top: 0px;
+  }
 }
 
 
@@ -403,6 +421,24 @@ button.gm-ui-hover-effect {
     padding-right: 10px;
   }
 
+  .bodyContent {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+  
+    position: relative ;
+    width: 158px;
+    height: 130px;
+    left: 0px;
+    top: 0px;
+  } 
+  
   .button {
     background: #1A1A1A;
     border-radius: 10px;
