@@ -263,8 +263,8 @@ h2 {
 }
 
 .bodyContent {
-  padding-top: 0px;
-  padding-right: 0px;
+  padding-top: 7px;
+  padding-right: 38px;
   padding-bottom: 0px;
   padding-left: 19px;
   font-family: 'Inter', sans-serif;
@@ -274,8 +274,8 @@ h2 {
   
 
   position: relative ;
-  width: 220px;
-  height: 130px;
+  width: 180px;
+  height: 161px;
   left: 0px;
   top: 0px;
 }
@@ -287,7 +287,7 @@ h2 {
 }
 
 .contact-phone {
-  margin-bottom: 5px;
+  margin-bottom: 17px;
 }
 
 
@@ -295,9 +295,18 @@ h2 {
   margin-top: 0px;
 }
 
-button.gm-ui-hover-effect {
+button.gm-ui-hover-effect, .gm-style-iw-tc {
   visibility: hidden;
 }
+
+.gm-style .gm-style-iw-c {
+  padding: 0px;
+  transform: translate3d(-50%,-93%,0);
+  box-shadow: 0px 15px 30px rgba(220, 221, 243, 0.25);
+  max-width: 500px;
+}
+
+
 
 
 .backgroung-elemts-elepse-top-left {
@@ -422,10 +431,10 @@ button.gm-ui-hover-effect {
   }
 
   .bodyContent {
-    padding-top: 0px;
-    padding-right: 0px;
+    padding-top: 7px;
+    padding-right: 38px;
     padding-bottom: 0px;
-    padding-left: 0px;
+    padding-left: 19px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     margin-bottom: 0px;
@@ -433,8 +442,8 @@ button.gm-ui-hover-effect {
     
   
     position: relative ;
-    width: 158px;
-    height: 130px;
+    width: 180px;
+    height: 161px;
     left: 0px;
     top: 0px;
   } 
