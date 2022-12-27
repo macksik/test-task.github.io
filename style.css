@@ -275,7 +275,7 @@ h2 {
 
   position: relative ;
   width: 180px;
-  height: 161px;
+  height: 141px;
   left: 0px;
   top: 0px;
 }
@@ -287,7 +287,7 @@ h2 {
 }
 
 .contact-phone {
-  margin-bottom: 17px;
+  margin-bottom: 5px;
 }
 
 
@@ -366,6 +366,10 @@ button.gm-ui-hover-effect, .gm-style-iw-tc {
     height: 130px;
     left: 0px;
     top: 0px;
+  }
+
+  .gm-style .gm-style-iw-c {
+    max-width: 500px;
   }
 }
 
